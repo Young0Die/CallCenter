@@ -1,0 +1,116 @@
+
+.tdtu-hero-section {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://tdtu.edu.vn/sites/www/files/Home/layout/career/van-hoa_0.jpg');
+    background-size: cover;
+    background-position: center center ;
+}
+.tdtu-hero-overlay {
+    
+    position: absolute;
+    inset: 0; 
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.tdtu-hero-content {
+    position: relative;
+    text-align: center;
+}
+
+.tdtu-hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.tdtu-hero-subtitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.tdtu-footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.tdtu-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.tdtu-footer-columns {
+    max-width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #0046ad;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 180px;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 4px 0;
+}
+
+.tdtu-contact-connect {
+    text-align: center;
+    padding: 40px 20px;
+    height: 30vh;
+    background-color: #fff;
+}
+
+.connect-title {
+    font-size: 20px;
+    color: #d80000;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.connect-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.connect-button {
+    background-color: #0c43a9;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+    background-color: #07317d;
+}

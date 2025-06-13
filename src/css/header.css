@@ -1,0 +1,36 @@
+.tdtu-header {
+    background-color: #ffff;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.tdtu-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    height: 80px;
+}
+
+.tdtu-logo img {
+    height: 50px;
+}
+
+.tdtu-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.tdtu-nav-link {
+    color: rgb(41, 29, 207);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 0;
+    transition: color 0.2s;
+}
+
+.tdtu-nav-link:hover {
+    color: #ffc107;
+}
