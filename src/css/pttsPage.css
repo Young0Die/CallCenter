@@ -1,0 +1,80 @@
+.tdtu-method-wrapper {
+    padding: 40px 20px;
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+}
+
+.tdtu-method-container {
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.method-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.method-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 24px;
+}
+
+.method-list {
+    padding-left: 20px;
+    margin: 12px 0 24px;
+}
+
+.method-list li {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.method-link {
+    margin: 24px 0;
+    font-style: italic;
+    color: #0046ad;
+    font-size: 15px;
+}
+
+.method-link a {
+    color: #0046ad;
+    text-decoration: underline;
+}
+
+.method-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #003580;
+}
+
+.method-subsub {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #003580;
+}
+.method-p{
+    color: #333;
+    line-height: 1.6;
+}
+.method-ul{
+    list-style-type: circle;
+    margin-top: 8px;
+    padding-left: 20px; 
+}

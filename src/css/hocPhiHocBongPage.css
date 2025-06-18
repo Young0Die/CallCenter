@@ -1,0 +1,95 @@
+.hocphi-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.red {
+    color: #c00;
+    font-weight: bold;
+}
+
+.accordion {
+    margin-bottom: 40px;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background: linear-gradient(to right, #007bff, #339af0);
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.accordion-header:hover {
+    background: #0056b3;
+}
+
+.accordion-body {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.accordion-body.open {
+    display: block;
+}
+
+.scrollable-table {
+    overflow-x: auto;
+    max-width: 100%;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.scrollable-table table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.scrollable-table th,
+.scrollable-table td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.scrollable-table thead {
+    background: #f1f1f1;
+    font-weight: bold;
+}
+
+.table-section {
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

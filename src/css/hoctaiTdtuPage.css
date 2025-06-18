@@ -1,0 +1,73 @@
+.hoc-tai-tdtu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #002a5c;
+}
+
+.hoc-tai-tdtu-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0046ad;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.hoc-tai-tdtu-title .blue {
+    color: #0046ad;
+}
+
+.hoc-tai-tdtu-title .red {
+    color: #e60012;
+}
+
+.hoc-tai-tdtu-subtitle {
+    font-size: 16px;
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.hoc-tai-tdtu-banner {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.feature-block {
+    margin-bottom: 60px;
+}
+
+.feature-block h3 {
+    color: #0046ad;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.feature-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.feature-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-row p {
+    flex: 1 1 50%;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.feature-row img {
+    flex: 1 1 40%;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

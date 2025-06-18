@@ -1,7 +1,6 @@
 import "../css/admissionPortalHome.css";
 import Header from "../pages/Header";
-import Chatbot from "../pages/Chatbot";
-import { BubbleChat } from "flowise-embed-react";
+import Footer from "../pages/Footer";
 
 export default function AdmissionPortalHome() {
   return (
@@ -33,83 +32,33 @@ export default function AdmissionPortalHome() {
           </a>
         </div>
       </div>
-      <footer className="tdtu-footer">
-        <div className="tdtu-footer-columns">
-          <div className="footer-col">
-            <h4>Liên hệ</h4>
-            <p>
-              <strong>Trường Đại học Tôn Đức Thắng</strong>
-            </p>
-            <p>
-              Số 19 Nguyễn Hữu Thọ, Phường Tân Phong,
-              <br />
-              Quận 7, TP. Hồ Chí Minh, Việt Nam
-            </p>
-            <p>
-              <strong>Tư vấn tuyển sinh đại học:</strong>
-            </p>
-            <p>
-              Hotline: 19002024
-              <br />
-              Email: tuvantuyensinh@tdtu.edu.vn
-            </p>
-            <p>
-              <strong>Tư vấn tuyển sinh sau đại học:</strong>
-            </p>
-            <p>
-              Hotline: 0944 314 466
-              <br />
-              Email: saudaihoc@tdtu.edu.vn
-            </p>
-            <p>
-              <strong>Hotline:</strong> 0935 035 270
-              <br />
-              Email: tuvantuyensinhkqt@tdtu.edu.vn
-            </p>
+          <div className="tdtu-content-layout">
+              <div className="tdtu-announcement-column">
+                  <div className="tdtu-announcements">
+                      <h3 className="announcement-title">Tuyển sinh đại học</h3>
+                      <ul className="announcement-list">
+                          <li><a href="#" target="_blank">➜ Thông báo công bố Thông tin tuyển sinh đại học chính quy năm 2025</a></li>
+                          <li><a href="#" target="_blank">➜ Thông báo lịch thi các môn năng khiếu năm 2025 - Đợt 2</a></li>
+                          <li><a href="#" target="_blank">➜ Thông báo xét tuyển thẳng năm 2025 theo Quy chế tuyển sinh của Bộ GD&ĐT</a></li>
+                      </ul>
+                      <h3 className="announcement-title">Tuyển sinh cao học</h3>
+                      <ul className="announcement-list">
+                          <li><a href="#" target="_blank">➜ Thông báo lịch thi đánh giá năng lực ngoại ngữ đầu vào trình độ thạc sĩ đợt 1 năm 2025</a></li>
+                          <li><a href="#" target="_blank">➜ Cập nhật thông tin tuyển sinh trình độ thạc sĩ năm 2025 tại Phân hiệu Khánh Hòa</a></li>
+                      </ul>
+                      <h3 className="announcement-title">Tuyển nghiên cứu sinh</h3>
+                      <ul className="announcement-list">
+                          <li><a href="#" target="_blank">➜ Thông báo tuyển sinh đào tạo trình độ tiến sĩ đợt 1 năm 2025</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div className="tdtu-banner-section tdtu-banner-sidebar">
+                  <img src="https://admission.tdtu.edu.vn/sites/admission23/files/Tuyen-sinh/2025/highlight/hocbong.png" alt="Học bổng" className="tdtu-banner-img" />
+                  <img src="https://admission.tdtu.edu.vn/sites/admission23/files/Tuyen-sinh/2025/highlight/nangkhieu_0.png" alt="Năng khiếu" className="tdtu-banner-img" />
+                  <img src="https://admission.tdtu.edu.vn/sites/admission23/files/Tuyen-sinh/2025/highlight/xet-tuyen-thang.png" alt="Xét tuyển thẳng" className="tdtu-banner-img" />
+              </div>
           </div>
-
-          <div className="footer-col">
-            <h4>Đại học</h4>
-            <p>Phương thức tuyển sinh 2025</p>
-            <p>Quy chế tuyển sinh 2025</p>
-            <p>Danh mục ngành</p>
-            <p>Tra cứu hồ sơ</p>
-            <p>Phân hiệu Khánh Hòa</p>
-          </div>
-
-          <div className="footer-col">
-            <h4>Sau đại học</h4>
-            <p>Hồ sơ dự tuyển</p>
-            <p>Đăng ký dự tuyển</p>
-            <p>Danh mục ngành</p>
-            <p>Chương trình thạc sĩ</p>
-            <p>Chương trình tiến sĩ</p>
-          </div>
-
-          <div className="footer-col">
-            <h4>Hỗ trợ</h4>
-            <p>Học phí - học bổng</p>
-            <p>Ký túc xá</p>
-            <p>Tư vấn</p>
-            <p>Hỗ trợ sinh viên</p>
-          </div>
-
-          <div className="footer-col">
-            <h4>Thông tin</h4>
-            <p>Công khai thông tin</p>
-            <p>Cơ sở vật chất</p>
-            <p>Trải nghiệm TDTU</p>
-          </div>
-        </div>
-        <div className="tdtu-footer-bottom">
-          Copyright © 2025 Ton Duc Thang University
-        </div>
-      </footer>
-      <BubbleChat
-        chatflowid="1503e118-61bf-48f7-8160-ba252e8c7991"
-        apiHost="http://localhost:4000"
-      />
-      {/* <Chatbot /> */}
+      <Footer/>
     </div>
   );
 }

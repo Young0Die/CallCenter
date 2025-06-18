@@ -1,12 +1,10 @@
-import '../css/header.css'
-import logo from '../img/logo_2.png'
+import '../css/header.css';
+import { Link } from 'react-router-dom';
 const menuItems = [
     { label: 'Trang chủ', href: '/' },
-    { label: 'Giới thiệu', href: '/gioi-thieu' },
-    { label: 'Thông báo', href: '/thong-bao' },
-    { label: 'Tư vấn tuyển sinh', href: '/tu-van' },
-    { label: 'Hỏi - Đáp', href: '/hoi-dap' },
-    { label: 'Liên hệ', href: '/lien-he' },
+    { label: 'Phương Thức Tuyển Sinh', href: '/phuong-thuc-tuyen-sinh' },
+    { label: 'Học phí - Học bổng', href: '/hoc-phi-hoc-bong' },
+    { label: 'Học Tại TDTU', href: '/hoc-tai-tdtu' },
   ];
 export default function Header() {
     return (
@@ -23,9 +21,9 @@ export default function Header() {
                 <div className="tdtu-header-right">
                     <nav className="tdtu-nav">
                         {menuItems.map((item, idx) => (
-                            <a key={idx} href={item.href} className="tdtu-nav-link">
+                            <Link key={idx} to={item.href} className="tdtu-nav-link">
                                 {item.label}
-                            </a>
+                            </Link>
                         ))}
                     </nav>
                 </div>
