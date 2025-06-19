@@ -19,9 +19,9 @@ export default function AdmissionPortalHome() {
         </h2>
         <div className="connect-buttons">
           <a href="tel:19002024" className="connect-button">
-            📞 Tư vấn trực tiếp Đại học
+            📞 Tư vấn trực tiếp Đại học : 02871078643
           </a>
-          <a
+          {/* <a
             href="https://example.com/tu-van-online"
             className="connect-button"
           >
@@ -29,7 +29,7 @@ export default function AdmissionPortalHome() {
           </a>
           <a href="tel:0944314466" className="connect-button">
             📞 Tư vấn tuyển sinh Sau đại học
-          </a>
+          </a> */}
         </div>
       </div>
           <div className="tdtu-content-layout">
