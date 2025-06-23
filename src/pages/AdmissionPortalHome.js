@@ -18,7 +18,7 @@ export default function AdmissionPortalHome() {
           Kết nối ngay với bộ phận tư vấn tuyển sinh TDTU
         </h2>
         <div className="connect-buttons">
-          <a href="tel:19002024" className="connect-button">
+          <a className="connect-title">
             📞 Tư vấn trực tiếp Đại học : 02871078643
           </a>
           {/* <a

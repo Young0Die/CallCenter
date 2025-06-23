@@ -90,14 +90,14 @@
     margin-bottom: 24px;
 }
 
-.connect-buttons {
+/* .connect-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-}
+} */
 
-.connect-button {
+/* .connect-button {
     background-color: #0c43a9;
     color: white;
     padding: 14px 24px;
@@ -109,11 +109,11 @@
     align-items: center;
     gap: 8px;
     transition: background-color 0.3s ease;
-}
+} */
 
-.connect-button:hover {
+/* .connect-button:hover {
     background-color: #07317d;
-}
+} */
 /* thông tin tuyển sinh + banner */
 .tdtu-content-layout {
     display: flex;
